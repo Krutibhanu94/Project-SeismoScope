@@ -1,4 +1,4 @@
-magnitude,cdi,mmi,sig,nst,dmin,gap,depth,latitude,longitude,Year,Month,tsunami,tsunami_bool
+magnitude,cdi,mmi,sig,nst,dmin,gap,depth,latitude,longitude,Year,Month,tsunami,tsunami_boolean
 7.0,8,7,768,117,0.509,17.0,14.0,-9.7963,159.596,2022,11,1,True
 6.9,4,4,735,99,2.229,34.0,25.0,-4.9559,100.738,2022,11,0,False
 7.0,3,3,755,147,3.125,18.0,579.0,-20.0508,-178.346,2022,11,1,True

@@ -1,0 +1,18 @@
+/* header {
+  padding: 32px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+} */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.content {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}

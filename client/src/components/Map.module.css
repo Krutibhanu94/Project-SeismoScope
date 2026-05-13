@@ -1,0 +1,22 @@
+.mapWrapper {
+  height: 600px;
+  width: 100%;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  margin: 2rem 0;
+  contain: strict;
+  background: var(--color-bg-secondary);
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.mapWrapper :global(.leaflet-bottom) {
+  transition: none;
+}
+
+.mapWrapper :global(.leaflet-control) {
+  contain: layout;
+}

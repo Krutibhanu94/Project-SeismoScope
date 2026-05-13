@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
-from server.routers import statistics
+from server.routers import statistics, earthquakes
 
 app = FastAPI()
 
@@ -36,3 +36,4 @@ def health_check():
     return {"status": "healthy"}
 
 app.include_router(statistics.router)
+app.include_router(earthquakes.router)

@@ -11,3 +11,12 @@ export const getStatistics = async () => {
     tsunamiRate: data.tsunami_rate,
   };
 };
+
+export const getEarthquakes = async () => {
+  const response = await fetch('/api/earthquakes');
+  if (!response.ok) {
+    throw new Error('Failed to fetch earthquake data');
+  }
+  const data = await response.json();
+  return data;
+};  

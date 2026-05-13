@@ -16,7 +16,7 @@ function Overview() {
   useEffect(() => { 
     getStatistics().then((data) => setStats(data));
   }, []);
-  console.log(stats);
+  
   if(!stats) {
     return <p>Loading...</p>;
   } 

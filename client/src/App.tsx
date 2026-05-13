@@ -1,5 +1,6 @@
 import styles from './App.module.css'
 import Header from './components/Header'
+import EarthquakeMap from './pages/EarthquakeMap'
 import Overview from './pages/Overview'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div className={styles.content}>
         <Overview />
+        <EarthquakeMap />
       </div>
     </div>
   )

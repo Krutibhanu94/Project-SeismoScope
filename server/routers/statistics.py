@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Request
-import pandas as pd
 
 router = APIRouter()
 
